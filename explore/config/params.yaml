@@ -6,9 +6,9 @@
     costmap_updates_topic: map_updates
     visualize: true
     planner_frequency: 0.15
-    progress_timeout: 30.0
-    potential_scale: 3.0
+    progress_timeout: 100000.0
+    potential_scale: 3.0    #Default is 2
     orientation_scale: 0.0
-    gain_scale: 1.0
+    gain_scale: 6.0       #Default 1.0    # 3 before
     transform_tolerance: 0.3
-    min_frontier_size: 0.75
+    min_frontier_size: 0.3 #Default 0.7
